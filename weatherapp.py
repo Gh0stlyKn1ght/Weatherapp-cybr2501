@@ -9,7 +9,7 @@ import requests #use requests library
 def fetch_data(zip=None, city=None, units=None):
 
     baseUrl = "http://api.openweathermap.org/data/2.5/weather" #url to openweather
-    API_Key = "#removed for github" #my  personal api key
+    API_Key = "14bf29c16ef6ec7b767c48e0749c43e5" #my  personal api key
 
  def get_units():
      if units.lower == 'fahrenheit'
